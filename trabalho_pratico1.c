@@ -1,5 +1,6 @@
 #include <stdio.h>
-int primo(int n){
+//funcao para checar se o numero e primo
+int primo(int n){ 
     if(n<2){
         return 0;
     }
@@ -12,6 +13,7 @@ int primo(int n){
 }
 int main(){
     int numero;
+    //estrutura pra verificar se o numero e maior que 1
     do{
         printf("Digite um numero inteiro positivo:\n");
         scanf("%d", &numero);
